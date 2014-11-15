@@ -1,0 +1,92 @@
+﻿2014/11/15 15:08:33 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Julius_vc_projects\msvc\libjulius\libjulius.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../libjulius/include /I../../libsent/include /I../config /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /wd4819 /analyze- /errorReport:prompt ..\..\libsent\src\anlz\vecin_net.c ..\config\version.c "..\..\libjulius\src\adin-cut.c" ..\..\libjulius\src\backtrellis.c ..\..\libjulius\src\beam.c ..\..\libjulius\src\callback.c ..\..\libjulius\src\confnet.c ..\..\libjulius\src\default.c ..\..\libjulius\src\dfa_decode.c ..\..\libjulius\src\factoring_sub.c ..\..\libjulius\src\gmm.c ..\..\libjulius\src\gramlist.c ..\..\libjulius\src\graphout.c ..\..\libjulius\src\hmm_check.c ..\..\libjulius\src\instance.c ..\..\libjulius\src\jfunc.c ..\..\libjulius\src\m_adin.c ..\..\libjulius\src\m_chkparam.c ..\..\libjulius\src\m_fusion.c ..\..\libjulius\src\m_info.c ..\..\libjulius\src\m_jconf.c ..\..\libjulius\src\m_options.c ..\..\libjulius\src\m_usage.c "..\..\libjulius\src\multi-gram.c" ..\..\libjulius\src\ngram_decode.c ..\..\libjulius\src\outprob_style.c ..\..\libjulius\src\pass1.c ..\..\libjulius\src\plugin.c "..\..\libjulius\src\realtime-1stpass.c" ..\..\libjulius\src\recogmain.c ..\..\libjulius\src\search_bestfirst_main.c ..\..\libjulius\src\search_bestfirst_v1.c ..\..\libjulius\src\search_bestfirst_v2.c ..\..\libjulius\src\spsegment.c ..\..\libjulius\src\useropt.c ..\..\libjulius\src\wav2mfcc.c ..\..\libjulius\src\wchmm.c ..\..\libjulius\src\wchmm_check.c ..\..\libjulius\src\word_align.c
+         word_align.c
+         wchmm_check.c
+         wchmm.c
+         wav2mfcc.c
+         useropt.c
+         spsegment.c
+         search_bestfirst_v2.c
+         search_bestfirst_v1.c
+         search_bestfirst_main.c
+         recogmain.c
+         realtime-1stpass.c
+         plugin.c
+         pass1.c
+         outprob_style.c
+         ngram_decode.c
+         multi-gram.c
+         m_usage.c
+         m_options.c
+         m_jconf.c
+         m_info.c
+         コードを生成中...
+         コンパイル中...
+         m_fusion.c
+         m_chkparam.c
+         m_adin.c
+         jfunc.c
+         instance.c
+         hmm_check.c
+         graphout.c
+         gramlist.c
+         gmm.c
+         factoring_sub.c
+         dfa_decode.c
+         default.c
+         confnet.c
+         callback.c
+         beam.c
+         backtrellis.c
+         adin-cut.c
+         version.c
+         vecin_net.c
+         コードを生成中...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\Julius_vc_projects\msvc\Debug\libjulius.lib" /NOLOGO Debug\vecin_net.obj
+         Debug\version.obj
+         "Debug\adin-cut.obj"
+         Debug\backtrellis.obj
+         Debug\beam.obj
+         Debug\callback.obj
+         Debug\confnet.obj
+         Debug\default.obj
+         Debug\dfa_decode.obj
+         Debug\factoring_sub.obj
+         Debug\gmm.obj
+         Debug\gramlist.obj
+         Debug\graphout.obj
+         Debug\hmm_check.obj
+         Debug\instance.obj
+         Debug\jfunc.obj
+         Debug\m_adin.obj
+         Debug\m_chkparam.obj
+         Debug\m_fusion.obj
+         Debug\m_info.obj
+         Debug\m_jconf.obj
+         Debug\m_options.obj
+         Debug\m_usage.obj
+         "Debug\multi-gram.obj"
+         Debug\ngram_decode.obj
+         Debug\outprob_style.obj
+         Debug\pass1.obj
+         Debug\plugin.obj
+         "Debug\realtime-1stpass.obj"
+         Debug\recogmain.obj
+         Debug\search_bestfirst_main.obj
+         Debug\search_bestfirst_v1.obj
+         Debug\search_bestfirst_v2.obj
+         Debug\spsegment.obj
+         Debug\useropt.obj
+         Debug\wav2mfcc.obj
+         Debug\wchmm.obj
+         Debug\wchmm_check.obj
+         Debug\word_align.obj
+         libjulius.vcxproj -> G:\GitHub\Julius_vc_projects\msvc\Debug\libjulius.lib
+     1>プロジェクト "G:\GitHub\Julius_vc_projects\msvc\libjulius\libjulius.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:10.71

@@ -1,0 +1,2 @@
+STAT: include config: G:\GitHub\Julius_vc_projects\dictation-kit-v4.3.1-win\dictation-kit-v4.3.1-win\am-gmm.jconf
+ERROR: m_chkparam: you should specify at least one LM to run Julius!

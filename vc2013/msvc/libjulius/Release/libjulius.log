@@ -1,0 +1,153 @@
+﻿2014/11/15 13:40:27 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\libjulius\libjulius.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../libjulius/include /I../../libsent/include /I../config /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /wd4819 /analyze- /errorReport:prompt ..\config\version.c "..\..\libjulius\src\adin-cut.c" ..\..\libjulius\src\backtrellis.c ..\..\libjulius\src\beam.c ..\..\libjulius\src\callback.c ..\..\libjulius\src\confnet.c ..\..\libjulius\src\default.c ..\..\libjulius\src\dfa_decode.c ..\..\libjulius\src\factoring_sub.c ..\..\libjulius\src\gmm.c ..\..\libjulius\src\gramlist.c ..\..\libjulius\src\graphout.c ..\..\libjulius\src\hmm_check.c ..\..\libjulius\src\instance.c ..\..\libjulius\src\jfunc.c ..\..\libjulius\src\m_adin.c ..\..\libjulius\src\m_chkparam.c ..\..\libjulius\src\m_fusion.c ..\..\libjulius\src\m_info.c ..\..\libjulius\src\m_jconf.c ..\..\libjulius\src\m_options.c ..\..\libjulius\src\m_usage.c "..\..\libjulius\src\multi-gram.c" ..\..\libjulius\src\ngram_decode.c ..\..\libjulius\src\outprob_style.c ..\..\libjulius\src\pass1.c ..\..\libjulius\src\plugin.c "..\..\libjulius\src\realtime-1stpass.c" ..\..\libjulius\src\recogmain.c ..\..\libjulius\src\search_bestfirst_main.c ..\..\libjulius\src\search_bestfirst_v1.c ..\..\libjulius\src\search_bestfirst_v2.c ..\..\libjulius\src\spsegment.c ..\..\libjulius\src\useropt.c ..\..\libjulius\src\wav2mfcc.c ..\..\libjulius\src\wchmm.c ..\..\libjulius\src\wchmm_check.c ..\..\libjulius\src\word_align.c
+         version.c
+         adin-cut.c
+     1>..\..\libjulius\src\adin-cut.c(176): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\adin-cut.c(309): warning C4101: 'transfer_online_local' : ローカル変数は 1 度も使われていません。
+         backtrellis.c
+         beam.c
+     1>..\..\libjulius\src\beam.c(539): warning C4244: 'return' : 'LOGPROB' から 'int' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\beam.c(609): warning C4244: '+=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\beam.c(644): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\beam.c(667): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         callback.c
+         confnet.c
+     1>..\..\libjulius\src\confnet.c(664): warning C4244: '=' : 'double' から 'PROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\confnet.c(823): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         default.c
+     1>..\..\libjulius\src\default.c(292): warning C4305: '=' : 'double' から 'LOGPROB' へ切り詰めます。
+         dfa_decode.c
+         factoring_sub.c
+     1>..\..\libjulius\src\factoring_sub.c(183): warning C4101: 's' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\factoring_sub.c(353): warning C4101: 'mtmp' : ローカル変数は 1 度も使われていません。
+         gmm.c
+     1>..\..\libjulius\src\gmm.c(192): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\gmm.c(225): warning C4244: '初期化中' : 'double' から 'VECT' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\gmm.c(236): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\gmm.c(366): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\gmm.c(691): warning C4244: '+=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\gmm.c(694): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gramlist.c
+         graphout.c
+     1>..\..\libjulius\src\graphout.c(2360): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\graphout.c(2362): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\graphout.c(2492): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         hmm_check.c
+         instance.c
+         jfunc.c
+     1>..\..\libjulius\src\jfunc.c(408): warning C4101: 'argc' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\jfunc.c(409): warning C4101: 'argv' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\jfunc.c(410): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
+         m_adin.c
+         m_chkparam.c
+         m_fusion.c
+     1>..\..\libjulius\src\m_fusion.c(1440): warning C4101: 'am' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\m_fusion.c(1440): warning C4101: 'atmp' : ローカル変数は 1 度も使われていません。
+         m_info.c
+         m_jconf.c
+     1>..\..\libjulius\src\m_jconf.c(459): warning C4101: 'cdir' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\m_jconf.c(458): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
+         コンパイル中...
+         m_options.c
+     1>..\..\libjulius\src\m_options.c(577): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\m_options.c(586): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\m_options.c(647): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\m_options.c(653): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\m_options.c(668): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\m_options.c(699): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\m_options.c(704): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\m_options.c(719): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\m_options.c(724): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\m_options.c(917): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         m_usage.c
+         multi-gram.c
+         ngram_decode.c
+         outprob_style.c
+         pass1.c
+     1>..\..\libjulius\src\pass1.c(377): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\pass1.c(384): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\pass1.c(520): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\pass1.c(527): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\pass1.c(653): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         plugin.c
+     1>..\..\libjulius\src\plugin.c(361): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\plugin.c(458): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\libjulius\src\plugin.c(585): warning C4244: '=' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\plugin.c(604): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\plugin.c(616): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\plugin.c(629): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\plugin.c(642): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\plugin.c(676): warning C4101: 'ret' : ローカル変数は 1 度も使われていません。
+         realtime-1stpass.c
+     1>..\..\libjulius\src\realtime-1stpass.c(671): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\libjulius\src\realtime-1stpass.c(820): warning C4244: '=' : 'float' から 'SP16' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\realtime-1stpass.c(994): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         recogmain.c
+     1>..\..\libjulius\src\recogmain.c(1201): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\recogmain.c(1208): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\recogmain.c(1223): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
+         search_bestfirst_main.c
+     1>..\..\libjulius\src\search_bestfirst_main.c(528): warning C4244: '+=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\search_bestfirst_main.c(568): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>..\..\libjulius\src\search_bestfirst_main.c(1133): warning C4101: 'j' : ローカル変数は 1 度も使われていません。
+     1>..\..\libjulius\src\search_bestfirst_main.c(1519): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         search_bestfirst_v1.c
+         search_bestfirst_v2.c
+         spsegment.c
+     1>..\..\libjulius\src\spsegment.c(165): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\libjulius\src\spsegment.c(199): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         useropt.c
+     1>..\..\libjulius\src\useropt.c(141): warning C4113: 'void (__cdecl *)()' はパラメーター リストが 'void (__cdecl *)(void)' と異なります。
+         wav2mfcc.c
+         wchmm.c
+     1>..\..\libjulius\src\wchmm.c(212): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+         wchmm_check.c
+     1>..\..\libjulius\src\wchmm_check.c(228): warning C4101: 'j' : ローカル変数は 1 度も使われていません。
+         word_align.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\libjulius.lib" /NOLOGO /LTCG Release\version.obj
+         "Release\adin-cut.obj"
+         Release\backtrellis.obj
+         Release\beam.obj
+         Release\callback.obj
+         Release\confnet.obj
+         Release\default.obj
+         Release\dfa_decode.obj
+         Release\factoring_sub.obj
+         Release\gmm.obj
+         Release\gramlist.obj
+         Release\graphout.obj
+         Release\hmm_check.obj
+         Release\instance.obj
+         Release\jfunc.obj
+         Release\m_adin.obj
+         Release\m_chkparam.obj
+         Release\m_fusion.obj
+         Release\m_info.obj
+         Release\m_jconf.obj
+         Release\m_options.obj
+         Release\m_usage.obj
+         "Release\multi-gram.obj"
+         Release\ngram_decode.obj
+         Release\outprob_style.obj
+         Release\pass1.obj
+         Release\plugin.obj
+         "Release\realtime-1stpass.obj"
+         Release\recogmain.obj
+         Release\search_bestfirst_main.obj
+         Release\search_bestfirst_v1.obj
+         Release\search_bestfirst_v2.obj
+         Release\spsegment.obj
+         Release\useropt.obj
+         Release\wav2mfcc.obj
+         Release\wchmm.obj
+         Release\wchmm_check.obj
+         Release\word_align.obj
+         libjulius.vcxproj -> G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\libjulius.lib
+     1>プロジェクト "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\libjulius\libjulius.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:09.95

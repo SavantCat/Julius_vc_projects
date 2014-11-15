@@ -1,0 +1,26 @@
+﻿2014/11/15 15:08:44 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "G:\GitHub\Julius_vc_projects\msvc\SampleApp\SampleApp.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../config /I../../libjulius/include /I../../libsent/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\SampleApp.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4819 /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../config /I../../libjulius/include /I../../libsent/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4819 /analyze- /errorReport:prompt Julius.cpp SampleApp.cpp
+         SampleApp.cpp
+         Julius.cpp
+         コードを生成中...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\SampleApp.res" SampleApp.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\Julius_vc_projects\msvc\Debug\SampleApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:../Debug /LIBPATH:../portaudio /LIBPATH:../zlib libjulius.lib libsent.lib ws2_32.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHub\Julius_vc_projects\msvc\Debug\SampleApp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GitHub\Julius_vc_projects\msvc\Debug\SampleApp.lib" /MACHINE:X86 /SAFESEH Debug\SampleApp.res
+         Debug\Julius.obj
+         Debug\SampleApp.obj
+         Debug\stdafx.obj
+         G:\GitHub\Julius_vc_projects\msvc\Debug\libsent.lib
+         G:\GitHub\Julius_vc_projects\msvc\Debug\libjulius.lib
+     1>Julius.obj : warning LNK4075: /EDITANDCONTINUE は /SAFESEH の指定によって無視されます。
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+         SampleApp.vcxproj -> G:\GitHub\Julius_vc_projects\msvc\Debug\SampleApp.exe
+     1>プロジェクト "G:\GitHub\Julius_vc_projects\msvc\SampleApp\SampleApp.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.25

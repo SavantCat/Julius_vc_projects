@@ -1,0 +1,323 @@
+﻿2014/11/15 15:08:27 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Julius_vc_projects\msvc\libsent\libsent.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../libsent/include /I../config /I../portaudio /I../zlib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /wd4819 /analyze- /errorReport:prompt ..\..\libsent\src\adin\adin_file.c ..\..\libsent\src\adin\adin_portaudio.c ..\..\libsent\src\adin\adin_tcpip.c ..\..\libsent\src\adin\ds48to16.c "..\..\libsent\src\adin\zc-e.c" ..\..\libsent\src\adin\zmean.c "..\..\libsent\src\wav2mfcc\mfcc-core.c" ..\..\libsent\src\wav2mfcc\para.c ..\..\libsent\src\wav2mfcc\ss.c "..\..\libsent\src\wav2mfcc\wav2mfcc-buffer.c" "..\..\libsent\src\wav2mfcc\wav2mfcc-pipe.c" ..\..\libsent\src\anlz\param_malloc.c ..\..\libsent\src\anlz\paramselect.c ..\..\libsent\src\anlz\paramtypes.c ..\..\libsent\src\anlz\rdparam.c ..\..\libsent\src\anlz\strip.c ..\..\libsent\src\anlz\strip_mfcc.c ..\..\libsent\src\anlz\wrsamp.c ..\..\libsent\src\anlz\wrwav.c ..\..\libsent\src\dfa\cpair.c ..\..\libsent\src\dfa\dfa_lookup.c ..\..\libsent\src\dfa\dfa_malloc.c ..\..\libsent\src\dfa\dfa_util.c ..\..\libsent\src\dfa\init_dfa.c ..\..\libsent\src\dfa\mkcpair.c ..\..\libsent\src\dfa\mkterminfo.c ..\..\libsent\src\dfa\rddfa.c ..\..\libsent\src\hmminfo\cdhmm.c ..\..\libsent\src\hmminfo\cdset.c ..\..\libsent\src\hmminfo\check_hmm_restriction.c ..\..\libsent\src\hmminfo\check_hmmtype.c ..\..\libsent\src\hmminfo\chkhmmlist.c ..\..\libsent\src\hmminfo\guess_cdHMM.c ..\..\libsent\src\hmminfo\hmm_lookup.c ..\..\libsent\src\hmminfo\init_phmm.c ..\..\libsent\src\hmminfo\put_htkdata_info.c ..\..\libsent\src\hmminfo\rdhmmdef.c ..\..\libsent\src\hmminfo\rdhmmdef_data.c ..\..\libsent\src\hmminfo\rdhmmdef_dens.c ..\..\libsent\src\hmminfo\rdhmmdef_mpdf.c ..\..\libsent\src\hmminfo\rdhmmdef_options.c ..\..\libsent\src\hmminfo\rdhmmdef_regtree.c ..\..\libsent\src\hmminfo\rdhmmdef_state.c ..\..\libsent\src\hmminfo\rdhmmdef_streamweight.c ..\..\libsent\src\hmminfo\rdhmmdef_tiedmix.c ..\..\libsent\src\hmminfo\rdhmmdef_trans.c ..\..\libsent\src\hmminfo\rdhmmdef_var.c ..\..\libsent\src\hmminfo\rdhmmlist.c ..\..\libsent\src\hmminfo\read_binhmm.c ..\..\libsent\src\hmminfo\read_binhmmlist.c ..\..\libsent\src\hmminfo\write_binhmm.c ..\..\libsent\src\hmminfo\write_binhmmlist.c ..\..\libsent\src\net\rdwt.c "..\..\libsent\src\net\server-client.c" ..\..\libsent\src\ngram\init_ngram.c ..\..\libsent\src\ngram\ngram_access.c ..\..\libsent\src\ngram\ngram_compact_context.c ..\..\libsent\src\ngram\ngram_lookup.c ..\..\libsent\src\ngram\ngram_malloc.c ..\..\libsent\src\ngram\ngram_read_arpa.c ..\..\libsent\src\ngram\ngram_read_bin.c ..\..\libsent\src\ngram\ngram_util.c ..\..\libsent\src\ngram\ngram_write_bin.c ..\..\libsent\src\phmm\addlog.c ..\..\libsent\src\phmm\calc_mix.c ..\..\libsent\src\phmm\calc_tied_mix.c ..\..\libsent\src\phmm\gms.c ..\..\libsent\src\phmm\gms_gprune.c ..\..\libsent\src\phmm\gprune_beam.c ..\..\libsent\src\phmm\gprune_common.c ..\..\libsent\src\phmm\gprune_heu.c ..\..\libsent\src\phmm\gprune_none.c ..\..\libsent\src\phmm\gprune_safe.c ..\..\libsent\src\phmm\mkwhmm.c ..\..\libsent\src\phmm\outprob.c ..\..\libsent\src\phmm\outprob_init.c ..\..\libsent\src\phmm\vsegment.c ..\..\libsent\src\util\aptree.c ..\..\libsent\src\util\confout.c ..\..\libsent\src\util\endian.c ..\..\libsent\src\util\gzfile.c ..\..\libsent\src\util\jlog.c ..\..\libsent\src\util\mybmalloc.c ..\..\libsent\src\util\mymalloc.c ..\..\libsent\src\util\mystrtok.c ..\..\libsent\src\util\ptree.c ..\..\libsent\src\util\qsort.c ..\..\libsent\src\util\readfile.c ..\..\libsent\src\util\strcasecmp.c ..\..\libsent\src\voca\init_voca.c ..\..\libsent\src\voca\voca_load_htkdict.c ..\..\libsent\src\voca\voca_load_wordlist.c ..\..\libsent\src\voca\voca_lookup.c ..\..\libsent\src\voca\voca_malloc.c ..\..\libsent\src\voca\voca_util.c
+         voca_util.c
+         voca_malloc.c
+         voca_lookup.c
+         voca_load_wordlist.c
+     1>g:\github\julius_vc_projects\libsent\src\voca\voca_load_wordlist.c(265): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\voca\voca_load_wordlist.c(205): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+         voca_load_htkdict.c
+     1>g:\github\julius_vc_projects\libsent\src\voca\voca_load_htkdict.c(437): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\voca\voca_load_htkdict.c(379): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+         init_voca.c
+         strcasecmp.c
+         readfile.c
+         qsort.c
+         ptree.c
+         mystrtok.c
+         mymalloc.c
+         mybmalloc.c
+         jlog.c
+         gzfile.c
+         endian.c
+         confout.c
+         aptree.c
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(415): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(419): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(423): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(477): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(481): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(485): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(450): warning C4101: 'num' : ローカル変数は 1 度も使われていません。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(448): warning C4101: 'maxbit' : ローカル変数は 1 度も使われていません。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(451): warning C4101: 'err' : ローカル変数は 1 度も使われていません。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(450): warning C4101: 'did' : ローカル変数は 1 度も使われていません。
+     1>g:\github\julius_vc_projects\libsent\src\util\aptree.c(448): warning C4101: 'count_branch' : ローカル変数は 1 度も使われていません。
+         vsegment.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\vsegment.c(140): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+         outprob_init.c
+         コードを生成中...
+         コンパイル中...
+         outprob.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\outprob.c(418): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+         mkwhmm.c
+         gprune_safe.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gprune_safe.c(83): warning C4244: '初期化中' : 'double' から 'VECT' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gprune_safe.c(94): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_none.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gprune_none.c(81): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_heu.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gprune_heu.c(181): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gprune_heu.c(212): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gprune_heu.c(224): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_common.c
+         gprune_beam.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gprune_beam.c(182): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gprune_beam.c(222): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gms_gprune.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gms_gprune.c(100): warning C4244: '初期化中' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gms_gprune.c(116): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\phmm\gms_gprune.c(177): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gms.c
+         calc_tied_mix.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\calc_tied_mix.c(236): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\phmm\calc_tied_mix.c(345): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         calc_mix.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\calc_mix.c(80): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         addlog.c
+     1>g:\github\julius_vc_projects\libsent\src\phmm\addlog.c(50): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         ngram_write_bin.c
+         ngram_util.c
+         ngram_read_bin.c
+         ngram_read_arpa.c
+     1>g:\github\julius_vc_projects\libsent\src\ngram\ngram_read_arpa.c(53): warning C4101: 'p' : ローカル変数は 1 度も使われていません。
+     1>g:\github\julius_vc_projects\libsent\src\ngram\ngram_read_arpa.c(218): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\ngram\ngram_read_arpa.c(388): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\ngram\ngram_read_arpa.c(406): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\ngram\ngram_read_arpa.c(419): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\ngram\ngram_read_arpa.c(422): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\ngram\ngram_read_arpa.c(425): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\ngram\ngram_read_arpa.c(432): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\ngram\ngram_read_arpa.c(500): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         ngram_malloc.c
+         ngram_lookup.c
+         ngram_compact_context.c
+         ngram_access.c
+         コードを生成中...
+     1>g:\github\julius_vc_projects\libsent\src\phmm\outprob.c(472): warning C4715: 'outprob_cache_output' : 値を返さないコントロール パスがあります。
+         コンパイル中...
+         init_ngram.c
+         server-client.c
+         rdwt.c
+         write_binhmmlist.c
+         write_binhmm.c
+         read_binhmmlist.c
+     1>g:\github\julius_vc_projects\libsent\src\hmminfo\read_binhmmlist.c(122): warning C4101: 'ttmp' : ローカル変数は 1 度も使われていません。
+         read_binhmm.c
+     1>g:\github\julius_vc_projects\libsent\src\hmminfo\read_binhmm.c(867): warning C4101: 'n' : ローカル変数は 1 度も使われていません。
+     1>g:\github\julius_vc_projects\libsent\src\hmminfo\read_binhmm.c(868): warning C4101: 'has_sid' : ローカル変数は 1 度も使われていません。
+     1>g:\github\julius_vc_projects\libsent\src\hmminfo\read_binhmm.c(866): warning C4101: 'stmp' : ローカル変数は 1 度も使われていません。
+         rdhmmlist.c
+         rdhmmdef_var.c
+         rdhmmdef_trans.c
+         rdhmmdef_tiedmix.c
+         rdhmmdef_streamweight.c
+         rdhmmdef_state.c
+         rdhmmdef_regtree.c
+         rdhmmdef_options.c
+         rdhmmdef_mpdf.c
+         rdhmmdef_dens.c
+         rdhmmdef_data.c
+         rdhmmdef.c
+     1>g:\github\julius_vc_projects\libsent\src\hmminfo\rdhmmdef.c(168): warning C4244: '=' : 'double' から 'VECT' への変換です。データが失われる可能性があります。
+         put_htkdata_info.c
+         コードを生成中...
+         コンパイル中...
+         init_phmm.c
+         hmm_lookup.c
+         guess_cdHMM.c
+         chkhmmlist.c
+         check_hmmtype.c
+         check_hmm_restriction.c
+         cdset.c
+         cdhmm.c
+         rddfa.c
+         mkterminfo.c
+         mkcpair.c
+         init_dfa.c
+         dfa_util.c
+         dfa_malloc.c
+         dfa_lookup.c
+         cpair.c
+         wrwav.c
+         wrsamp.c
+         strip_mfcc.c
+         strip.c
+         コードを生成中...
+         コンパイル中...
+         rdparam.c
+         paramtypes.c
+         paramselect.c
+         param_malloc.c
+         wav2mfcc-pipe.c
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(356): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(360): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(364): warning C4244: '/=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(376): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(380): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(419): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(551): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(571): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(575): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(591): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(718): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-pipe.c(736): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         wav2mfcc-buffer.c
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-buffer.c(125): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-buffer.c(131): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-buffer.c(162): warning C4244: '/=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-buffer.c(274): warning C4244: '/=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\wav2mfcc-buffer.c(298): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         ss.c
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\ss.c(160): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         para.c
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(93): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(122): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(123): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(130): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(237): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(239): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(241): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(247): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(262): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(264): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(270): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(272): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(274): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(276): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(278): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(300): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(301): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(302): warning C4244: '/=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\para.c(303): warning C4244: '/=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         mfcc-core.c
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(47): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(102): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(133): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(134): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(162): warning C4244: 'return' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(183): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(184): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(196): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(204): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(214): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(240): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(247): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(248): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(253): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(254): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(299): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(372): warning C4244: '*=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(387): warning C4244: '*=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(417): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(439): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(440): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(483): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(484): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(537): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(557): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(588): warning C4244: '*=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\libsent\src\wav2mfcc\mfcc-core.c(707): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         zmean.c
+         zc-e.c
+         ds48to16.c
+     1>g:\github\julius_vc_projects\libsent\src\adin\ds48to16.c(359): warning C4244: '=' : 'double' から 'SP16' への変換です。データが失われる可能性があります。
+         adin_tcpip.c
+         adin_portaudio.c
+     1>g:\github\julius_vc_projects\libsent\src\adin\adin_portaudio.c(168): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+         adin_file.c
+         コードを生成中...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\Julius_vc_projects\msvc\Debug\libsent.lib" portaudio_x86.lib /LIBPATH:"../mingw-misc-julius/lib" /LIBPATH:../portaudio /NOLOGO Debug\adin_file.obj
+         Debug\adin_portaudio.obj
+         Debug\adin_tcpip.obj
+         Debug\ds48to16.obj
+         "Debug\zc-e.obj"
+         Debug\zmean.obj
+         "Debug\mfcc-core.obj"
+         Debug\para.obj
+         Debug\ss.obj
+         "Debug\wav2mfcc-buffer.obj"
+         "Debug\wav2mfcc-pipe.obj"
+         Debug\param_malloc.obj
+         Debug\paramselect.obj
+         Debug\paramtypes.obj
+         Debug\rdparam.obj
+         Debug\strip.obj
+         Debug\strip_mfcc.obj
+         Debug\wrsamp.obj
+         Debug\wrwav.obj
+         Debug\cpair.obj
+         Debug\dfa_lookup.obj
+         Debug\dfa_malloc.obj
+         Debug\dfa_util.obj
+         Debug\init_dfa.obj
+         Debug\mkcpair.obj
+         Debug\mkterminfo.obj
+         Debug\rddfa.obj
+         Debug\cdhmm.obj
+         Debug\cdset.obj
+         Debug\check_hmm_restriction.obj
+         Debug\check_hmmtype.obj
+         Debug\chkhmmlist.obj
+         Debug\guess_cdHMM.obj
+         Debug\hmm_lookup.obj
+         Debug\init_phmm.obj
+         Debug\put_htkdata_info.obj
+         Debug\rdhmmdef.obj
+         Debug\rdhmmdef_data.obj
+         Debug\rdhmmdef_dens.obj
+         Debug\rdhmmdef_mpdf.obj
+         Debug\rdhmmdef_options.obj
+         Debug\rdhmmdef_regtree.obj
+         Debug\rdhmmdef_state.obj
+         Debug\rdhmmdef_streamweight.obj
+         Debug\rdhmmdef_tiedmix.obj
+         Debug\rdhmmdef_trans.obj
+         Debug\rdhmmdef_var.obj
+         Debug\rdhmmlist.obj
+         Debug\read_binhmm.obj
+         Debug\read_binhmmlist.obj
+         Debug\write_binhmm.obj
+         Debug\write_binhmmlist.obj
+         Debug\rdwt.obj
+         "Debug\server-client.obj"
+         Debug\init_ngram.obj
+         Debug\ngram_access.obj
+         Debug\ngram_compact_context.obj
+         Debug\ngram_lookup.obj
+         Debug\ngram_malloc.obj
+         Debug\ngram_read_arpa.obj
+         Debug\ngram_read_bin.obj
+         Debug\ngram_util.obj
+         Debug\ngram_write_bin.obj
+         Debug\addlog.obj
+         Debug\calc_mix.obj
+         Debug\calc_tied_mix.obj
+         Debug\gms.obj
+         Debug\gms_gprune.obj
+         Debug\gprune_beam.obj
+         Debug\gprune_common.obj
+         Debug\gprune_heu.obj
+         Debug\gprune_none.obj
+         Debug\gprune_safe.obj
+         Debug\mkwhmm.obj
+         Debug\outprob.obj
+         Debug\outprob_init.obj
+         Debug\vsegment.obj
+         Debug\aptree.obj
+         Debug\confout.obj
+         Debug\endian.obj
+         Debug\gzfile.obj
+         Debug\jlog.obj
+         Debug\mybmalloc.obj
+         Debug\mymalloc.obj
+         Debug\mystrtok.obj
+         Debug\ptree.obj
+         Debug\qsort.obj
+         Debug\readfile.obj
+         Debug\strcasecmp.obj
+         Debug\init_voca.obj
+         Debug\voca_load_htkdict.obj
+         Debug\voca_load_wordlist.obj
+         Debug\voca_lookup.obj
+         Debug\voca_malloc.obj
+         Debug\voca_util.obj
+         libsent.vcxproj -> G:\GitHub\Julius_vc_projects\msvc\Debug\libsent.lib
+     1>プロジェクト "G:\GitHub\Julius_vc_projects\msvc\libsent\libsent.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.67

@@ -1,0 +1,57 @@
+﻿2014/11/15 13:40:37 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\julius\julius.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../libjulius/include /I../../libsent/include /I../config /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /wd4819 /analyze- /errorReport:prompt ..\..\julius\charconv.c ..\..\julius\charconv_libjcode.c ..\..\julius\charconv_win32.c ..\..\julius\main.c ..\..\julius\module.c ..\..\julius\output_file.c ..\..\julius\output_module.c ..\..\julius\output_stdout.c ..\..\julius\recogloop.c ..\..\julius\record.c ..\..\julius\libjcode\detect.c ..\..\julius\libjcode\libjcode.c
+         charconv.c
+         charconv_libjcode.c
+         charconv_win32.c
+         main.c
+         module.c
+     1>..\..\julius\module.c(543): warning C4013: 関数 'j_process_remove' は定義されていません。int 型の値を返す外部関数と見なします。
+     1>..\..\julius\module.c(544): warning C4013: 関数 'j_process_lm_remove' は定義されていません。int 型の値を返す外部関数と見なします。
+     1>..\..\julius\module.c(479): warning C4101: 'amconf' : ローカル変数は 1 度も使われていません。
+     1>..\..\julius\module.c(801): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(716) : 'fdopen' の宣言を確認してください。
+         output_file.c
+         output_module.c
+     1>..\..\julius\output_module.c(623): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         output_stdout.c
+     1>..\..\julius\output_stdout.c(1242): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>..\..\julius\output_stdout.c(1244): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         recogloop.c
+         record.c
+         detect.c
+         libjcode.c
+     1>..\..\julius\libjcode\libjcode.c(410): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\julius\libjcode\libjcode.c(434): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>..\..\julius\libjcode\libjcode.c(459): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\julius.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../Release /LIBPATH:../portaudio /LIBPATH:../zlib libsent.lib libjulius.lib ws2_32.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\julius.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\julius.lib" /MACHINE:X86 /SAFESEH Release\charconv.obj
+         Release\charconv_libjcode.obj
+         Release\charconv_win32.obj
+         Release\main.obj
+         Release\module.obj
+         Release\output_file.obj
+         Release\output_module.obj
+         Release\output_stdout.obj
+         Release\recogloop.obj
+         Release\record.obj
+         Release\detect.obj
+         Release\libjcode.obj
+         "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\libsent.lib"
+         "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\libjulius.lib"
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_close" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_pause" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_open" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_resume" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_read" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_input_name" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_terminate" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_standby" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_get_configuration" は未解決です。
+     1>G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\julius.exe : fatal error LNK1120: 9 件の未解決の外部参照
+     1>プロジェクト "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\julius\julius.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:02.86

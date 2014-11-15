@@ -1,0 +1,32 @@
+﻿2014/11/15 13:40:37 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\SampleApp\SampleApp.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../config /I../../libjulius/include /I../../libsent/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\SampleApp.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4819 /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../config /I../../libjulius/include /I../../libsent/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4819 /analyze- /errorReport:prompt Julius.cpp SampleApp.cpp
+         Julius.cpp
+         SampleApp.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\SampleApp.res" SampleApp.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\SampleApp.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../Release /LIBPATH:../portaudio /LIBPATH:../zlib libjulius.lib libsent.lib ws2_32.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\SampleApp.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\SampleApp.lib" /MACHINE:X86 /SAFESEH Release\SampleApp.res
+         Release\Julius.obj
+         Release\SampleApp.obj
+         Release\stdafx.obj
+         "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\libsent.lib"
+         "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\libjulius.lib"
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_close" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_pause" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_open" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_resume" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_read" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_input_name" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_terminate" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_standby" は未解決です。
+     1>libjulius.lib(plugin.obj) : error LNK2001: 外部シンボル "_vecin_get_configuration" は未解決です。
+     1>G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\Release\SampleApp.exe : fatal error LNK1120: 9 件の未解決の外部参照
+     1>プロジェクト "G:\GitHub\Julius_vc_projects\julius-4.3.1\julius-4.3.1\msvc\SampleApp\SampleApp.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:01.10

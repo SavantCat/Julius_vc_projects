@@ -1,0 +1,51 @@
+﻿2014/11/15 15:08:44 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Julius_vc_projects\msvc\julius\julius.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../libjulius/include /I../../libsent/include /I../config /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /wd4819 /analyze- /errorReport:prompt ..\..\julius\charconv.c ..\..\julius\charconv_libjcode.c ..\..\julius\charconv_win32.c ..\..\julius\main.c ..\..\julius\module.c ..\..\julius\output_file.c ..\..\julius\output_module.c ..\..\julius\output_stdout.c ..\..\julius\recogloop.c ..\..\julius\record.c ..\..\julius\libjcode\detect.c ..\..\julius\libjcode\libjcode.c
+         libjcode.c
+     1>g:\github\julius_vc_projects\julius\libjcode\libjcode.c(410): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\julius\libjcode\libjcode.c(434): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>g:\github\julius_vc_projects\julius\libjcode\libjcode.c(459): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         detect.c
+         record.c
+         recogloop.c
+         output_stdout.c
+     1>g:\github\julius_vc_projects\julius\output_stdout.c(1242): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\github\julius_vc_projects\julius\output_stdout.c(1244): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         output_module.c
+     1>g:\github\julius_vc_projects\julius\output_module.c(623): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         output_file.c
+         module.c
+     1>g:\github\julius_vc_projects\julius\module.c(543): warning C4013: 関数 'j_process_remove' は定義されていません。int 型の値を返す外部関数と見なします。
+     1>g:\github\julius_vc_projects\julius\module.c(544): warning C4013: 関数 'j_process_lm_remove' は定義されていません。int 型の値を返す外部関数と見なします。
+     1>g:\github\julius_vc_projects\julius\module.c(479): warning C4101: 'amconf' : ローカル変数は 1 度も使われていません。
+     1>g:\github\julius_vc_projects\julius\module.c(801): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(716) : 'fdopen' の宣言を確認してください。
+         main.c
+         charconv_win32.c
+         charconv_libjcode.c
+         charconv.c
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\Julius_vc_projects\msvc\Debug\julius.exe" /INCREMENTAL /NOLOGO /LIBPATH:../Debug /LIBPATH:../portaudio /LIBPATH:../zlib libsent.lib libjulius.lib ws2_32.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHub\Julius_vc_projects\msvc\Debug\julius.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GitHub\Julius_vc_projects\msvc\Debug\julius.lib" /MACHINE:X86 /SAFESEH Debug\charconv.obj
+         Debug\charconv_libjcode.obj
+         Debug\charconv_win32.obj
+         Debug\main.obj
+         Debug\module.obj
+         Debug\output_file.obj
+         Debug\output_module.obj
+         Debug\output_stdout.obj
+         Debug\recogloop.obj
+         Debug\record.obj
+         Debug\detect.obj
+         Debug\libjcode.obj
+         G:\GitHub\Julius_vc_projects\msvc\Debug\libsent.lib
+         G:\GitHub\Julius_vc_projects\msvc\Debug\libjulius.lib
+     1>charconv.obj : warning LNK4075: /EDITANDCONTINUE は /SAFESEH の指定によって無視されます。
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+         julius.vcxproj -> G:\GitHub\Julius_vc_projects\msvc\Debug\julius.exe
+     1>プロジェクト "G:\GitHub\Julius_vc_projects\msvc\julius\julius.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.06
